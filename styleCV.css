@@ -1,0 +1,32 @@
+.lang-body .progress-bar:before{
+content: "";
+position: absolute;
+height: 100%;
+background-color:#b27a83;
+border-radius: 1rem;
+}
+.lang-body .fr::before{
+width: 100%;
+}
+.lang-body .ang::before{
+  width: 80%;
+  }
+  .lang-body .fon::before{
+    width: 90%;
+    }
+
+    .title{
+      letter-spacing: 0rem;
+      font-weight:bold ;
+    }
+    .liste::before{
+      content: "•";
+      padding-right: 2px;
+    }
+    .card-body-right{
+      clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100% );
+    }
+    .image{
+      background-image:url(pexelsCV.jpeg);
+      background-size: cover;
+    }
